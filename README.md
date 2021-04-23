@@ -1,4 +1,5 @@
 Description:
+
 This project implements a 2-Class Object Detector model using Yolo v3 as well as the more recent Yolo v4 to detect Mask or No-mask. 
 The classes are:
 Class 0 - Face with Mask
@@ -6,6 +7,7 @@ Class 1 - Face without Mask
 Given an input image or video with faces with and without masks, the model will ouput Mask or No Mask on all faces detected.
 
 Detailed documentation on the steps and code are in the notebook files. Following are the steps at a high level:
+
 1. Download and compile Darknet source - git clone https://github.com/AlexeyAB/darknet.git
 2. Dataset contains images of people with mask and without mask, and the annotations are given in the txt files. 
 3. Configure all the neccessary config files (class.names, .cfg, .data etc) and Hyperparameters values:
